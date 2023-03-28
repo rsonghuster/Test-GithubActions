@@ -1,7 +1,7 @@
 name: Caching with npm
 on: push
 jobs:
-  build:
+  test-cache:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
